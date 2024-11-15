@@ -20,7 +20,7 @@ search to provide accurate, context-aware responses based on the content of uplo
 ```sh
   pip install -r requirements.txt
   ```
-Need to download **Ollama** (Link here: ![ollama](https://www.ollama.com/) )
+Need to download **Ollama** (Link here: [ollama](https://www.ollama.com/) )
 
 ## 5. Setup
 1. Open cmd, run:
@@ -44,7 +44,7 @@ Need to download **Ollama** (Link here: ![ollama](https://www.ollama.com/) )
 ![...](https://github.com/tranvietcuong03/Chatbot-supports-learning/blob/master/Image/pytest_ex.png)
 
 ## 7. Prompt
-As a Vietnamese chatbot, I adjust the prompt template (reference from ![vinallama](https://huggingface.co/vilm/vinallama-7b-chat-GGUF) ), there is the prompt template i use in this project: <br>
+As a Vietnamese chatbot, I adjust the prompt template (reference from [vinallama](https://huggingface.co/vilm/vinallama-7b-chat-GGUF) ), there is the prompt template i use in this project: <br>
 ```
 PROMPT_TEMPLATE = """<|im_start|>system
 Bạn là một trợ lý AI chuyên nghiệp, nhiệm vụ của bạn là đọc hiểu và trả lời câu hỏi dựa trên nội dung tài liệu được cung cấp.
