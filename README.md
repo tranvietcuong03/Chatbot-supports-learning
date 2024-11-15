@@ -22,16 +22,17 @@ search to provide accurate, context-aware responses based on the content of uplo
 - Mistral LLM
 - PyPDF for document processing
 - Vector embeddings
+- Pytest
 - Flasks
 
-## 4. Installation
+## 5. Installation
 - Technologies
 ```sh
   pip install -r requirements.txt
   ```
 Need to download **Ollama** (Link here: [ollama](https://www.ollama.com/) )
 
-## 5. Setup
+## 6. Setup
 1. Open cmd, run:
  ```sh
   ollama serve
@@ -45,14 +46,14 @@ Need to download **Ollama** (Link here: [ollama](https://www.ollama.com/) )
   python app.py
   ```
 
-## 6. Demo
+## 7. Demo
 - Demo the interface:
 ![...](https://github.com/tranvietcuong03/Chatbot-supports-learning/blob/master/Image/demo.png)
 
 - Pytest: one of tests:
 ![...](https://github.com/tranvietcuong03/Chatbot-supports-learning/blob/master/Image/pytest_ex.png)
 
-## 7. Prompt
+## 8. Prompt
 As a Vietnamese chatbot, I adjust the prompt template (reference from [vinallama](https://huggingface.co/vilm/vinallama-7b-chat-GGUF) ), there is the prompt template i use in this project: <br>
 ```
 PROMPT_TEMPLATE = """<|im_start|>system
