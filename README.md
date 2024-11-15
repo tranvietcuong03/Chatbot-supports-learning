@@ -22,7 +22,7 @@ A Retrieval-Augmented Generation (RAG) system for Local LLM that enables intelli
 - PyPDF for document processing
 - Vector embeddings
 - Pytest
-- Flasks
+- Flask
 
 ## 5. Installation
 - Technologies
