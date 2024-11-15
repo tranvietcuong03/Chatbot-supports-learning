@@ -15,6 +15,15 @@ search to provide accurate, context-aware responses based on the content of uplo
 ## 3. Architecture
 ![...](https://github.com/tranvietcuong03/Chatbot-supports-learning/blob/master/Image/rag.png)
 
+## 4. Technologies Used
+- Python 3.10+
+- LangChain framework
+- FAISS for vector similarity search
+- Mistral LLM
+- PyPDF for document processing
+- Vector embeddings
+- Flasks
+
 ## 4. Installation
 - Technologies
 ```sh
