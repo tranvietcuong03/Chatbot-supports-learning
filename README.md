@@ -1,8 +1,7 @@
 # Chat Bot supports learnings
 
 ## 1. Introduction
-A Retrieval-Augmented Generation (RAG) system that enables intelligent question-answering interactions with PDF documents. The system uses local LLM (Mistral) combined with vector similarity
-search to provide accurate, context-aware responses based on the content of uploaded PDF documents.
+A Retrieval-Augmented Generation (RAG) system for Local LLM that enables intelligent question-answering interactions with PDF documents.
 
 ## 2. Features
 - PDF document processing and text extraction
