@@ -4,3 +4,4 @@ langchain-community
 faiss-cpu
 pytest
 boto3
+flask
