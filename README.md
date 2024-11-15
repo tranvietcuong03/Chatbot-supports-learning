@@ -13,7 +13,7 @@ search to provide accurate, context-aware responses based on the content of uplo
 - Support for Vietnamese language
 
 ## 3. Architecture
-![...}(https://github.com/tranvietcuong03/Chatbot-supports-learning/blob/master/Image/rag.png)
+![...](https://github.com/tranvietcuong03/Chatbot-supports-learning/blob/master/Image/rag.png)
 
 ## 4. Installation
 - Technologies
@@ -32,7 +32,7 @@ Need to download **Ollama** (Link here: ![ollama](https://www.ollama.com/) )
   python populate_db.py
   ```
 3. Run application:
-   ```sh
+```sh
   python app.py
   ```
 
