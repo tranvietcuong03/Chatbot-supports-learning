@@ -1,0 +1,6 @@
+pypdf
+langchain
+langchain-community
+faiss-cpu
+pytest
+boto3
