@@ -28,7 +28,7 @@ Need to download **Ollama** (Link here: ![ollama](https://www.ollama.com/) )
   ollama serve
   ```
 2. Create vectorstories (faiss folder):
-```sh
+```bash
   python populate_db.py
   ```
 3. Run application:
@@ -42,3 +42,29 @@ Need to download **Ollama** (Link here: ![ollama](https://www.ollama.com/) )
 
 - Pytest: one of tests:
 ![...](https://github.com/tranvietcuong03/Chatbot-supports-learning/blob/master/Image/pytest_ex.png)
+
+## 7. Prompt
+As a Vietnamese chatbot, I adjust the prompt template (reference from ![vinallama](https://huggingface.co/vilm/vinallama-7b-chat-GGUF) ), there is the prompt template i use in this project: <br>
+```
+PROMPT_TEMPLATE = """<|im_start|>system
+Bạn là một trợ lý AI chuyên nghiệp, nhiệm vụ của bạn là đọc hiểu và trả lời câu hỏi dựa trên nội dung tài liệu được cung cấp.
+
+Ngữ cảnh từ tài liệu:
+{context}
+
+Yêu cầu:
+1. Trả lời hoàn toàn bằng tiếng Việt
+2. Trả lời chi tiết, đầy đủ với các luận điểm và ví dụ từ tài liệu
+3. Nếu không tìm thấy thông tin trong ngữ cảnh, chỉ trả lời "Câu hỏi này không có trong tài liệu"
+4. Không được tự tạo thông tin không có trong ngữ cảnh  
+
+Câu hỏi: {question}
+<|im_end|>
+
+<|im_start|>user
+{question}
+<|im_end|>
+
+<|im_start|>assistant
+"""
+```
